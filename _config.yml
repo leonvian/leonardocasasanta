@@ -1,90 +1,98 @@
-# Site
+---
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
-
-# Content configuration version
 version: 2
-
-# Personal info
 name: Leonardo Viana Casasanta
 title: Mobile Software Engineer
 email: leonardo2050@gmail.com
 website: www.github.com/leonvian/
-
-# Dark Mode (true/false/never)
 darkmode: false
-
-# Social links
 github_username: leonvian
 linkedin_username: leonardo-casasanta-92bb2220
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
 about_profile_image: images/profile.jpg
-about_content: |
-  I am a mobile software engineer with 16+ years of experience, specializing in software architecture, Android development, and adopting cutting-edge technologies and practices. I thrive on solving complex technical challenges through teamwork and knowledge sharing.
+about_content: >
+  I am a mobile software engineer with 16+ years of experience,
+  specializing in software architecture, Android development, and adopting
+  cutting-edge technologies and practices. I thrive on solving complex technical
+  challenges through teamwork and knowledge sharing.
+
 
   I bring experience, having worked as the sole engineer in small startups and as part of large, global teams building complex, high-impact products.
-
 content:
-  - title: Experience and Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience and Projects
+    layout: list
     content:
       - layout: left
         title: Utility (2022 - Present)
-        description: |
+        description: >
           **Pliability - Top Marketing Fit App**
+
           I handled all Android development tasks, including rebuilding most of the UI following design and product team guidelines. I fixed and enhanced issues identified via Crashlytics and analytics, revamped payment screens, implemented the app's most popular features from scratch, and upgraded the Player library to the latest version.
+
           Technologies: Android ExoPlayer, coroutines, Room (SQLite), Retrofit (REST), Android Navigation, Google Play Billing.
-        images:
+
+          images:
+
           - images/pliability/screenshot1.png
+
           - images/pliability/screenshot2.png
+
           - images/pliability/screenshot3.png
 
-          **Counslr - Therapy App**
-          As the sole Android developer, I worked extensively on refactoring this legacy app, which had significant crashes and memory leaks. I introduced a repository layer using Retrofit and SQLite to reduce unnecessary API calls, rebranded the app, and redesigned 90% of its UI.
-          Technologies: SendBird (chat framework), GraphQL, SQLite (Room).
-        images:
-          - images/counslr/screenshot1.png
-          - images/counslr/screenshot2.png
 
+          **Counslr - Therapy App**
+
+          As the sole Android developer, I worked extensively on refactoring this legacy app, which had significant crashes and memory leaks. I introduced a repository layer using Retrofit and SQLite to reduce unnecessary API calls, rebranded the app, and redesigned 90% of its UI.
+
+          Technologies: SendBird (chat framework), GraphQL, SQLite (Room).
+
+          images:
+
+          - images/counslr/screenshot1.png
+
+          - images/counslr/screenshot2.png
       - layout: left
         title: ArcTouch (2018 - 2022)
-        description: |
+        description: >
           **3M Filtrete**
+
           This app connects to smart filters via Bluetooth to collect air quality data. I led a complete overhaul of the Bluetooth module, resolving numerous critical bugs and enhancing reliability. Additionally, I contributed to a UI redesign that dramatically improved the app's Google Play rating, elevating it from 1.6 to 4.5 during my tenure.
+
           Technologies: Bluetooth Low Energy integration, Accessibility Components.
-        images:
+
+          images:
+
           - images/3m-filtrete/screenshot1.png
 
+
           **Flavor Maker by McCormick**
+
           A content management app showcasing McCormick’s products and recipes. I implemented multiple features, including the innovative "recipe battle" feature for influencers, push notification handling, and ensured accessibility compliance tailored for Canadian users.
+
           Technologies: Accessibility Components, Retrofit, modularization.
-        images:
+
+          images:
+
           - images/flavor-maker/screenshot1.png
+
           - images/flavor-maker/screenshot2.png
 
+
           **Quizlet**
+
           A large-scale project developed by a global multidisciplinary team. My responsibilities included maintaining the app, fixing a significant number of bugs, and delivering new features that positively impacted the app's yearly performance metrics.
+
           Technologies: Hilt Dependency Injection (DI).
-        images:
+
+          images:
+
           - images/quizlet/screenshot1.png
+
           - images/quizlet/screenshot2.png
-
-# Footer
 footer_show_references: true
-
-# Build settings
 remote_theme: sproogen/resume-theme
-
 sass:
   sass_dir: _sass
   style: compressed
-
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
