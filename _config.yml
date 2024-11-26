@@ -28,7 +28,9 @@ linkedin_username: leonardo-casasanta-92bb2220
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Leonardo and I'm a Mobile Software Engineer. I have extensive experience developing innovative mobile solutions with a focus on quality and performance.
+  I am a versatile mobile software engineer with 16+ years of experience, specializing in software architecture, Android development, and adopting cutting-edge technologies and practices. I thrive on solving complex technical challenges through teamwork and knowledge sharing.
+
+  I bring versatile experience, having worked as the sole engineer in small startups and as part of large, global teams building complex, high-impact products.
 
 content:
   - title: Projects # Title for the section
@@ -58,34 +60,56 @@ content:
         link: utility.com
         sub_title: Utility (2022 - Present)
         description: | # this will include new lines to allow paragraphs
-          **Pliability**: Handled Android development, revamped UI, fixed Crashlytics issues, and upgraded Player library.
-          **Counslr**: Refactored legacy app, added repository layer, reduced API calls, and rebranded UI.
-          **Colorchain**: Built UI, API integrations, and Shopify connections from scratch.
-          **Care**: Developed reusable Android UI library with Jetpack Compose, led work profile module refactoring, and improved accessibility.
+          **Pliability - Top Marketing Fit App**
+          I handled all Android development tasks, including rebuilding most of the UI following design and product team guidelines. I fixed and enhanced issues identified via Crashlytics and analytics, revamped payment screens, implemented the app's most popular features from scratch, and upgraded the Player library to the latest version.
+          Technologies: Android ExoPlayer, coroutines, Room (SQLite), Retrofit (REST), Android Navigation, Google Play Billing.
+
+          **Counslr - Therapy App**
+          As the sole Android developer, I worked extensively on refactoring this legacy app, which had significant crashes and memory leaks. I introduced a repository layer using Retrofit and SQLite to reduce unnecessary API calls, rebranded the app, and redesigned 90% of its UI.
+          Technologies: SendBird (chat framework), GraphQL, SQLite (Room).
+
+          **Colorchain - E-commerce App**
+          I rebuilt this abandoned app from scratch, creating its UI, API integrations, and core functionality. I implemented seamless connections with the Shopify API for product data and payment processing.
+          Technologies: Shopify API integration.
+
+          **Care - Caregiver Job Matching App**
+          This was a large-scale project with a multidisciplinary team spread across the globe. I developed a reusable Android UI library using Jetpack Compose, creating shareable components. Additionally, I led a refactoring of the work profile module and contributed to initiatives aimed at improving accessibility for users with disabilities.
+          Technologies: Jetpack Compose, accessibility components.
 
       - layout: left
         title: Mobile Software Engineer
         link: arctouch.com
         sub_title: ArcTouch (2018 - 2022)
         description: | # this will include new lines to allow paragraphs
-          **3M Filtrete**: Overhauled Bluetooth module and improved Google Play rating.
-          **Flavor Maker by McCormick**: Developed features, including "recipe battle," and ensured accessibility compliance.
-          **Quizlet**: Maintained app, fixed bugs, and delivered features improving performance metrics.
+          **3M Filtrete**
+          This app connects to smart filters via Bluetooth to collect air quality data. I led a complete overhaul of the Bluetooth module, resolving numerous critical bugs and enhancing reliability. Additionally, I contributed to a UI redesign that dramatically improved the app's Google Play rating, elevating it from 1.6 to 4.5 during my tenure.
+          Technologies: Bluetooth Low Energy integration, Accessibility Components.
+
+          **Flavor Maker by McCormick**
+          A content management app showcasing McCormick’s products and recipes. I implemented multiple features, including the innovative "recipe battle" feature for influencers, push notification handling, and ensured accessibility compliance tailored for Canadian users.
+          Technologies: Accessibility Components, Retrofit, modularization.
+
+          **Quizlet**
+          A large-scale project developed by a global multidisciplinary team. My responsibilities included maintaining the app, fixing a significant number of bugs, and delivering new features that positively impacted the app's yearly performance metrics.
+          Technologies: Hilt Dependency Injection (DI).
 
       - layout: left
         title: Mobile Software Engineer
         link: primesystems.com
         sub_title: Prime Systems (2013 - 2018)
         description: | # this will include new lines to allow paragraphs
-          Revamped UI module of flagship product and introduced new features, including trace routes using Google Maps. Defined patterns and technologies for company products.
+          I worked across all mobile products. Notable contributions included revamping the User Interface module of Prime Builder, the company's flagship product. I introduced several new features, such as trace routes using Google web services and Google Maps integration. I also played a key role in defining the patterns and technologies adopted in the company's products.
 
       - layout: left
         title: Mobile Software Engineer
         link: algar.com
         sub_title: Algar (2010 - 2013)
         description: | # this will include new lines to allow paragraphs
-          **Aedes aegypti Control**: Developed Java ME app for health workers tracking mosquito breeding sites.
-          **SIF**: Lead developer for Android app enabling health inspectors to monitor restaurants, including Bluetooth printer integration.
+          **Aedes aegypti Control**
+          This application, developed in Java Mobile Edition, was designed for health workers to record and track potential Aedes aegypti breeding sites in Belo Horizonte's municipal area.
+
+          **SIF**
+          An Android application utilized by health inspectors for monitoring restaurants. The app facilitates the issuance of penalties in case of non-compliance. As the lead developer on this project, I was responsible for the primary implementation of features, including integrating a connection with a Bluetooth printer.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
