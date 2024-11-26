@@ -27,16 +27,18 @@ linkedin_username: leonardo-casasanta-92bb2220
 # About Section
 about_profile_image: images/profile.jpg
 about_content: |
-  Hi, my name's Leonardo and I'm a Mobile Software Engineer. I have extensive experience developing innovative mobile solutions with a focus on quality and performance.
+  I am a mobile software engineer with 16+ years of experience, specializing in software architecture, Android development, and adopting cutting-edge technologies and practices. I thrive on solving complex technical challenges through teamwork and knowledge sharing.
+
+  I bring experience, having worked as the sole engineer in small startups and as part of large, global teams building complex, high-impact products.
 
 content:
-  - title: Experience # Title for the section
+  - title: Experience and Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Pliability - Top Marketing Fit App
-        link: https://github.com/leonvian/pliability
+        title: Utility (2022 - Present)
         description: |
+          **Pliability - Top Marketing Fit App**
           I handled all Android development tasks, including rebuilding most of the UI following design and product team guidelines. I fixed and enhanced issues identified via Crashlytics and analytics, revamped payment screens, implemented the app's most popular features from scratch, and upgraded the Player library to the latest version.
           Technologies: Android ExoPlayer, coroutines, Room (SQLite), Retrofit (REST), Android Navigation, Google Play Billing.
         images:
@@ -44,10 +46,7 @@ content:
           - images/pliability/screenshot2.png
           - images/pliability/screenshot3.png
 
-      - layout: left
-        title: Counslr - Therapy App
-        link: https://github.com/leonvian/counslr
-        description: |
+          **Counslr - Therapy App**
           As the sole Android developer, I worked extensively on refactoring this legacy app, which had significant crashes and memory leaks. I introduced a repository layer using Retrofit and SQLite to reduce unnecessary API calls, rebranded the app, and redesigned 90% of its UI.
           Technologies: SendBird (chat framework), GraphQL, SQLite (Room).
         images:
@@ -55,24 +54,27 @@ content:
           - images/counslr/screenshot2.png
 
       - layout: left
-        title: Colorchain - E-commerce App
-        link: https://github.com/leonvian/colorchain
+        title: ArcTouch (2018 - 2022)
         description: |
-          I rebuilt this abandoned app from scratch, creating its UI, API integrations, and core functionality. I implemented seamless connections with the Shopify API for product data and payment processing.
-          Technologies: Shopify API integration.
+          **3M Filtrete**
+          This app connects to smart filters via Bluetooth to collect air quality data. I led a complete overhaul of the Bluetooth module, resolving numerous critical bugs and enhancing reliability. Additionally, I contributed to a UI redesign that dramatically improved the app's Google Play rating, elevating it from 1.6 to 4.5 during my tenure.
+          Technologies: Bluetooth Low Energy integration, Accessibility Components.
         images:
-          - images/colorchain/screenshot1.png
-          - images/colorchain/screenshot2.png
+          - images/3m-filtrete/screenshot1.png
 
-      - layout: left
-        title: Care - Caregiver Job Matching App
-        link: https://github.com/leonvian/care
-        description: |
-          This was a large-scale project with a multidisciplinary team spread across the globe. I developed a reusable Android UI library using Jetpack Compose, creating shareable components. Additionally, I led a refactoring of the work profile module and contributed to initiatives aimed at improving accessibility for users with disabilities.
-          Technologies: Jetpack Compose, accessibility components.
+          **Flavor Maker by McCormick**
+          A content management app showcasing McCormick’s products and recipes. I implemented multiple features, including the innovative "recipe battle" feature for influencers, push notification handling, and ensured accessibility compliance tailored for Canadian users.
+          Technologies: Accessibility Components, Retrofit, modularization.
         images:
-          - images/care/screenshot1.png
-          - images/care/screenshot2.png
+          - images/flavor-maker/screenshot1.png
+          - images/flavor-maker/screenshot2.png
+
+          **Quizlet**
+          A large-scale project developed by a global multidisciplinary team. My responsibilities included maintaining the app, fixing a significant number of bugs, and delivering new features that positively impacted the app's yearly performance metrics.
+          Technologies: Hilt Dependency Injection (DI).
+        images:
+          - images/quizlet/screenshot1.png
+          - images/quizlet/screenshot2.png
 
 # Footer
 footer_show_references: true
